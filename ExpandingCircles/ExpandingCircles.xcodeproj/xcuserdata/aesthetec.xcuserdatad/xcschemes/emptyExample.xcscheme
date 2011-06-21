@@ -14,7 +14,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E4B69B5A0A3A1756003C02F2"
-               BuildableName = "emptyExampleDebug.app"
+               BuildableName = "ExpandingCirclesDebug.app"
                BlueprintName = "ExpandingCircles"
                ReferencedContainer = "container:ExpandingCircles.xcodeproj">
             </BuildableReference>
@@ -41,7 +41,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E4B69B5A0A3A1756003C02F2"
-            BuildableName = "emptyExampleDebug.app"
+            BuildableName = "ExpandingCirclesDebug.app"
             BlueprintName = "ExpandingCircles"
             ReferencedContainer = "container:ExpandingCircles.xcodeproj">
          </BuildableReference>
@@ -60,7 +60,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E4B69B5A0A3A1756003C02F2"
-            BuildableName = "emptyExampleDebug.app"
+            BuildableName = "ExpandingCirclesDebug.app"
             BlueprintName = "ExpandingCircles"
             ReferencedContainer = "container:ExpandingCircles.xcodeproj">
          </BuildableReference>

@@ -20,6 +20,10 @@ public:
     int radius;
     int lineWidth;
     int expandRate;
+    int timer;
+    
+    bool dead;
+    
     
     void update();
     void draw();
@@ -43,7 +47,7 @@ class testApp : public ofBaseApp{
     
         vector <CustomBall> circles;
         
- 
+  
     
 
 };

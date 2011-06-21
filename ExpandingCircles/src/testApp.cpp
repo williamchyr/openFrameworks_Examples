@@ -10,6 +10,9 @@ CustomBall::CustomBall() {
     lineWidth = ofRandom(2, 10);    
     expandRate = 2;
     
+    dead = false;
+    timer = 250;
+    
 }
 
 void CustomBall::update() {
@@ -18,6 +21,12 @@ void CustomBall::update() {
     r += 1;
     g += 1;
     b += 1;
+    
+    timer -= 1;
+    
+    if (timer < 0) {
+        dead = true;
+    }
     
 }
 
@@ -44,7 +53,11 @@ void testApp::update(){
     
     for (int i = 0; i < circles.size(); i++ ) {
         circles[i].update();
+        if(circles[i].dead) {
+			circles.erase( circles.begin()+i );
+		}
     }
+    
 
 }
 
