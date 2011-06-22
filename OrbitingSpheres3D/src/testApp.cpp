@@ -66,7 +66,6 @@ void testApp::setup(){
 void testApp::update(){
 	
     angle += PI/100;
-    angle2 += PI/80;
     
     rotX += 1;
 	rotY += 2;
